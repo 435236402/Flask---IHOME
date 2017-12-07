@@ -8,11 +8,11 @@ class Config(object):
     SECREK_KEY = "U1E69dSf+qPB7Rmr38uNVvI9S2gfEtbqeGnYT8UGo8N+CEy3x+0Olad0EJRpUaNt"
 
     # 数据库连接信息配置
-    SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@172.16.160.128:3306/ihome'
+    SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@172.16.160.130:3306/ihome'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # redis配置
-    REDIS_HOST = '172.16.160.128'
+    REDIS_HOST = '172.16.160.130'
     REDIS_PORT = 6379
 
     # Session 扩展的配置

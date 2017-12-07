@@ -4,8 +4,39 @@ WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 174-072-078
 DEBUG index.py:12 DEBUG LOGLOG
 DEBUG index.py:14 DEBUG LOGLOG CURRENT
-INFO _internal.py:87 127.0.0.1 - - [06/Dec/2017 19:31:42] "GET /index HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [06/Dec/2017 21:19:57] "GET /index HTTP/1.1" 200 -
 INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO _internal.py:87  * Restarting with stat
 WARNING _internal.py:87  * Debugger is active!
 INFO _internal.py:87  * Debugger PIN: 174-072-078
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 174-072-078
+INFO _internal.py:87 127.0.0.1 - - [07/Dec/2017 15:11:30] "GET /index.html HTTP/1.1" 500 -
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 174-072-078
+INFO _internal.py:87 127.0.0.1 - - [07/Dec/2017 15:14:27] "GET /index.html HTTP/1.1" 500 -
+INFO _internal.py:87 127.0.0.1 - - [07/Dec/2017 15:14:27] "GET /index.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [07/Dec/2017 15:14:27] "GET /index.html?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [07/Dec/2017 15:14:27] "GET /index.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [07/Dec/2017 15:14:27] "GET /index.html?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [07/Dec/2017 15:14:27] "GET /index.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87 127.0.0.1 - - [07/Dec/2017 15:14:27] "GET /index.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:87  * Detected change in '/Users/user/Desktop/Flask_test1/iHome/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 174-072-078
+INFO _internal.py:87  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 174-072-078
+INFO _internal.py:87 127.0.0.1 - - [07/Dec/2017 15:20:46] "GET /index.html HTTP/1.1" 500 -
+INFO _internal.py:87  * Detected change in '/Users/user/Desktop/Flask_test1/iHome/web_html.py', reloading
+INFO _internal.py:87  * Restarting with stat
+WARNING _internal.py:87  * Debugger is active!
+INFO _internal.py:87  * Debugger PIN: 174-072-078
+INFO _internal.py:87  * Detected change in '/Users/user/Desktop/Flask_test1/iHome/__init__.py', reloading
+INFO _internal.py:87  * Restarting with stat

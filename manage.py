@@ -3,6 +3,8 @@
 from flask_script import Manager
 from flask_migrate import Migrate,MigrateCommand
 from iHome import create_app
+from iHome import models
+
 
 # 通过传入不同的配置名字,去创建不同配置的 APP
 app = create_app('developement')

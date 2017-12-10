@@ -4,8 +4,9 @@ import redis
 
 
 class Config(object):
-    '''项目的配置'''
-    SECREK_KEY = "U1E69dSf+qPB7Rmr38uNVvI9S2gfEtbqeGnYT8UGo8N+CEy3x+0Olad0EJRpUaNt"
+    """项目的配置"""
+
+    SECRET_KEY = "U1E69dSf+qPB7Rmr38uNVvI9S2gfEtbqeGnYT8UGo8N+CEy3x+0Olad0EJRpUaNt"
 
     # 数据库连接信息配置
     SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@172.16.160.130:3306/ihome'

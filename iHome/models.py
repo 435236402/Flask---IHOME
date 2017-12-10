@@ -29,6 +29,20 @@ class User(BaseModel, db.Model):
     houses = db.relationship("House", backref="user")  # 用户发布的房屋
     orders = db.relationship("Order", backref="user")  # 用户下的订单
 
+    @property  # 将某个方法提升成某个属性,通过对象.xxx 去方法
+    def password(self):
+        raise AttributeError('该属性不能访问')
+
+    @password.setter  # 标识下面的方法是指定属性的设置方法
+    def password(self,value):
+        """设置 password 的时候会调用该方法,并且会将设置的值作为方法的参数传入 value"""
+        self.password_hash = generate_password_hash(value)
+        pass
+
+    def check_password(self,password):
+        """校验密码"""
+        return check_password_hash(self.password_hash,password)
+
 
 class Area(BaseModel, db.Model):
     """城区"""

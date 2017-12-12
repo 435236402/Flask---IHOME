@@ -5,8 +5,18 @@ from . import api
 from flask import request,  current_app, jsonify,session
 from iHome.models import User
 from iHome import redis_store,db
-
 from iHome.utils.response_code import RET
+from iHome.utils.common import login_required
+
+
+@api.route('/session',methods=['DELETE'])
+@login_required
+def logout():
+    # 清除用户登录信息
+    session.pop('name', None)
+    session.pop('mobile', None)
+    session.pop('user_id', None)
+    return jsonify(errno=RET.OK,errmsg='OK')
 
 
 @api.route('/session',methods=['POST'])
